@@ -1,0 +1,69 @@
+.button {
+  display: inline-flex;
+  appearance: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: all 250ms ease 0s;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  width: auto;
+  line-height: 1.2;
+  border-width: 0px;
+  border-radius: var(--aria-border-radius-medium);
+  font-weight: var(--aria-font-weight-semibold);
+  min-width: var(--aria-spacing-xx-large);
+  padding-inline-start: var(--aria-spacing-medium);
+  padding-inline-end: var(--aria-spacing-medium);
+  margin: 2px;
+  background-color: var(--aria-color-primary);
+  color: var(--aria-color-secondary);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--aria-color-primary);
+  opacity: 0.9;
+}
+
+.secondary {
+  background-color: var(--aria-color-secondary);
+  color: var(--aria-color-primary);
+}
+
+.secondary:hover {
+  background-color: var(--aria-color-gray-300);
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.disabled:hover {
+  opacity: 0.8;
+}
+
+.disabled:hover {
+  background-color: var(--aria-color-primary);
+}
+
+.small {
+  font-size: var(--aria-font-size-small);
+  height: var(--aria-spacing-x-large);
+}
+
+.medium {
+  font-size: var(--aria-font-size-medium);
+  height: var(--aria-spacing-xx-large);
+}
+
+.large {
+  font-size: var(--aria-font-size-large);
+  height: var(--aria-spacing-xxx-large);
+}
